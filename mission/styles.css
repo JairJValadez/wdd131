@@ -9,6 +9,19 @@ body {
     padding: 20px;
 }
 
+/*Dark theme rule*/
+
+body.dark {
+    background-color: #333;
+    color: white;
+}
+
+.dark .title h2 {
+    color: #A0D4ED;
+}
+
+/*Light theme & general rules*/
+
 .borderline{
     border:1px solid #e5e5e5;
     margin:50px;
@@ -73,6 +86,18 @@ ol li {
     height: auto;
 }
 
+/*Select element styling*/
 
+#pick-theme{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.dark #pick-theme {
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+}
 
 
