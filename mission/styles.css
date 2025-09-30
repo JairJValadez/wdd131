@@ -63,10 +63,6 @@ body.dark {
     text-align: left;
 }
 
-p:nth-child(2){
-    font-style: italic;
-}
-
 ol li {
     margin-bottom: 15px;
 }
