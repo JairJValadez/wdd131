@@ -42,11 +42,12 @@ popUpImage.addEventListener('click', (event) => {
 })
 
 
-//Event listeners
+//Event listeners for menu
 menuButton.addEventListener("click", menuVisibility);
 window.addEventListener("resize", handleResize);
 //Makes sure it show the menu when it opens directly in a screen that is < 1000px
 handleResize();
 
+//Event listeners for modal
 gallery.addEventListener('click', openModal);
 modalButton.addEventListener('click', closeModal);

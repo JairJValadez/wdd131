@@ -134,7 +134,7 @@ dialog {
 
 
 /*Responsive styling for bigger than 700px 
-lower than 1000px*/
+lower than 1000px including modal*/
 
 
 @media screen and (min-width: 700px) {
