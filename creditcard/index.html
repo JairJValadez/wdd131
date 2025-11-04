@@ -9,14 +9,10 @@
 </head>
 <body>
     <form class="form-container">
-        <!-- Card Back, z-index 1 (behind) -->
         <div class="card card-back">
-            <!-- Black Magnetic Stripe -->
             <div class="stripe"></div>
             <div class="cvv-area">
-                <!-- CVC/CVV Label and Input -->
                 <label for="cvv">CVC/CVV</label>
-                <!-- Gray signature line (cvv-text-area takes the first grid column) -->
                 <div class="cvv-text-area"></div>
                 <input
                     type="text"
@@ -30,9 +26,7 @@
             </div>
         </div>
 
-        <!-- Card Front: Positioned with z-index 2 (on top) -->
         <div class="card card-front">
-            <!-- Row 1: Total and Chip -->
             <div class="card-total">TOTAL: $199</div>
             <div class="card-chip">
                 <img
@@ -43,7 +37,6 @@
                 >
             </div>
 
-            <!-- Row 2: Card Number -->
             <div class="card-number-group">
                 <label for="card-number">CARD NUMBER</label>
                 <input
@@ -57,7 +50,6 @@
                 />
             </div>
 
-            <!-- Row 3/4: Card Holder and Expiration -->
             <div class="card-holder-group">
                 <label for="card-holder">CARD HOLDER</label>
                 <input
