@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book JV</title>
+    <meta name="description" content="Find simple and delicious recipes for every meal and occasion, optimized for easy cooking and accessibility.">
+    <meta name="keywords" content="recipes, food, cooking, baking, dessert, dinner, simple recipes">
+
+    <meta property="og:title" content="Recipe Book - Simple & Delicious Recipes for Everyone">
+    <meta property="og:type" content="website" /> <meta property="og:description" content="Find simple, accessible, and delicious recipes for every meal and occasion.">
+    <meta property="og:image" content="[url]/images/recipe-book-sharing.jpg"> <meta property="og:url" content="[url]/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RECIPEBOOK: Simple & Accessible Cooking">
+    <meta name="twitter:description" content="Your source for simple, easy-to-follow recipes for dinner, desserts, and holiday meals.">
+
+    <link rel="stylesheet" href="recipes.css"/>
+    <script src="main.js" defer></script>
+
+    
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-content">
+            <div class="logo-area">
+                <img src="images/recipe-book.png" alt="Recipe Book Logo" class="site-logo">
+                <h1 class="logo-text">RECIPEBOOK</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <form class="search-form">
+            <label for="recipe-search" class="sr-only">Find a recipe</label>
+            <input 
+                type="search" 
+                id="recipe-search" 
+                placeholder="Find a recipe" 
+                aria-label="Search for a recipe"
+            >
+            <button 
+                type="submit" 
+                aria-label="Search"
+                class="search-button"
+            >
+                <img src="images/search.svg" alt="Search icon" class="search-icon-img">
+            </button>
+        </form>
+
+        <section class="recipe-card">
+            <h2 class="sr-only">Featured Recipe: Apple Crisp</h2>
+            
+            <div class="recipe-layout">
+                
+                <div class="recipe-image-container">
+                    <img 
+                        src="images/apple-crisp.jpg" 
+                        alt="A bowl of apple crisp topped with a scoop of vanilla ice cream" 
+                        class="recipe-image"
+                    >
+                </div>
+
+                <div class="recipe-details">
+
+                    <!-- Tags -->
+                    <div class="recipe-tags">
+                        <span class="tag">Dessert</span>
+                    </div>
+
+                    <h3 class="recipe-title logo-text">APPLE CRISP</h3>
+                    
+                    <!-- Star Rating -->
+                    <div class="recipe-rating-container">
+                        <span
+                            class="rating"
+                            role="img"
+                            aria-label="Rating: 4 out of 5 stars">
+                            <span aria-hidden="true" class="icon-star">⭐</span>
+                            <span aria-hidden="true" class="icon-star">⭐</span>
+                            <span aria-hidden="true" class="icon-star">⭐</span>
+                            <span aria-hidden="true" class="icon-star">⭐</span>
+                            <span aria-hidden="true" class="icon-star-empty">☆</span>
+                        </span>
+                    </div>
+
+                    <p class="recipe-description">
+                        This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream. 
+                        It features sweet, tender apples and a crunchy, buttery oat topping. Perfect for a cozy evening treat!
+                    </p>
+                    
+                    <div class="recipe-info">
+                        <p>Prep Time: 15 mins | Cook Time: 45 mins | Servings: 8</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            
+            <div class="attribution-text">
+                &copy; 2023 Recipe Book. All rights reserved.
+                <br>
+                <!-- Required Attribution -->
+                <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">
+                    Recipe icons created by Freepik - Flaticon
+                </a>
+            </div>
+
+            <div class="social">
+                <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+                <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+                <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+                <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
